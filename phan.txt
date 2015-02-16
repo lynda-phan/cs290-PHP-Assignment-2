@@ -1,4 +1,8 @@
 
+Start: Sun Feb 15 11:45:00 2015 -0800
+End: Mon Feb 16 00:06:48 2015 -0800
+Tasks: Add database connection for heroku
+
 Start: Sun Feb 15 07:30:00 2015 -0800
 End: Sun Feb 15 18:55:00 2015 -0800
 Tasks: Complete assignment and pass all rough testing protocol.
@@ -6,5 +10,3 @@ Tasks: Complete assignment and pass all rough testing protocol.
 Start: Sun Feb 15 07:30:00 2015 -0800
 End: Sun Feb 15 18:49:16 2015 -0800
 Tasks: Research PHP and MySql for a few days. Add db connection files. Add assets. Add video form without php.
-
-
