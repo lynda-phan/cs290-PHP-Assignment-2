@@ -1,10 +1,18 @@
 <?php
 
-$mysql_host = '127.0.0.1';
-$mysql_user = 'root';
-$mysql_password = '';
+$url = parse_url(getenv("CLEARDB_DATABASE_URL"));
 
-$mysql_db = "general";
+if ($url) {
+    $mysql_host = $url["host"];
+    $mysql_user = $url["user"];
+    $mysql_password = $url["pass"];
+    $mysql_db = substr($url["path"], 1);
+} else {
+    $mysql_host = '127.0.0.1';
+    $mysql_user = 'root';
+    $mysql_password = '';
+    $mysql_db = 'general';
+}
 
 try {
     $pdo = new PDO("mysql:host={$mysql_host}", $mysql_user, $mysql_password);
