@@ -1,0 +1,29 @@
+.btn {
+  color: #ffffff;
+  background: #7fc3ff;
+  padding: 5px 5px 5px 5px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #00aade;
+  text-decoration: none;
+}
+
+.btn-delete {
+    background: #ff0000;
+}
+
+.btn-delete:hover {
+  background: #de0000;
+  text-decoration: none;
+}
+
+.btn-toggle {
+    background: #7bc784;
+}
+
+.btn-toggle:hover {
+  background: #00de59;
+  text-decoration: none;
+}
